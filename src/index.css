@@ -1,0 +1,54 @@
+body {
+  color: rgba(255, 255, 255, 0.87) !important;
+  background-color: #242424 !important;
+}
+
+.feedback {
+  visibility: hidden;
+  color: red;
+}
+
+div .is-invalid + .feedback {
+  visibility: visible;
+}
+
+.up {
+  color: green !important;
+}
+.down {
+  color: red !important;
+}
+.coin-card {
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.coin-card:hover {
+  box-shadow: 0 0 20px rgba(141, 116, 2, 0.956);
+  transform: translate(10px, -10px);
+}
+
+.more-btn {
+  margin: 12px;
+  height: 50px;
+  width: 120px;
+  border-radius: 10px;
+  background: #333;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #444,
+    inset -5px -5px 10px #222;
+  font-family: "sans-serif", cursive;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(161, 161, 161);
+  transition: 500ms;
+}
+
+.more-btn:hover {
+  box-shadow: -5px -5px 15px #cc9004, 5px 5px 15px #222,
+    inset 5px 5px 10px #ab9b05df, inset -5px -5px 10px #c3ad05e6;
+  color: #d6d6d6;
+  transition: 500ms;
+}
